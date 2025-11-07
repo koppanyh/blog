@@ -6,6 +6,9 @@ All posts from before 2025 are ported over from [Blogspot](https://koppanyhorvat
 
 ## Directory
 
+* 2025
+  * November
+    * [Goodbye, Blogger, and thanks for all the fish!](./2025/11/goodbye-blogger-and-thanks-for-all-fish.md)
 * 2023
   * August
     * [Advertising your Minecraft server with pings: How to return custom ICMP Echo Reply messages](./2023/08/advertising-your-minecraft-server-with.md)

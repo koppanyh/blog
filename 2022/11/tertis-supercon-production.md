@@ -8,7 +8,7 @@ Two weekends ago (Nov 4-6, 2022), I attended the Hackaday Supercon for the first
 
 I had written Tetris for my first time ever in C++ 3 weeks before the con to get an idea of how it would work. In order to simplify the tetromino rotations, I picked one block to be the center and would rotate all the other blocks around that one. That made things interesting when rotating the square or the line. I decided to call the project "Tertis" (not Tetris) because of how jank it was seemingly going to be to play. But it actually wasn't bad. I spent half an hour playing it at 1 am on a workday.
 
-![](./images/image.png) \
+<img src="./images/image.png" height="480"> \
 <sub>[Oops, all ANSI escapes](https://twitter.com/koppanyh/status/1583934076460838912?s=20&t=D0-0SKP3Vnvk1S-YUFF89Q)</sub>
 
 (P.S. Because of the whole Twitter fiasco and the possibility of losing tweets or whatever, I'll be posting pictures of my tweets along with links to get to them instead of embedding the tweets directly. I don't think anything will happen, but just in case.)
@@ -21,17 +21,17 @@ I got to the con super early to be one of the first 100 people to receive the po
 
 Since I hadn't had access to the badge before this, Friday was dedicated to figuring out all the little peculiarities of the architecture and testing my understanding of the manual. My first program just read from the random register and displayed it on the display in a loop, so I could test programming. For my second program, I one-upped a friend by whipping up a little routine on paper with 14 instructions that would just fill the screen with randomness for maximum blinkenlight effect, because his program only did half the screen. I'd end up passing this routine out throughout the con to people who just wanted the badge to do something; since it was open source, they'd just take a picture of my page of assembly. I'd later end up submitting this program as the first punch card for [another team building a punch card reader](https://twitter.com/im889/status/1590928302185013249?s=20&t=pHMUFSgJjOCnHutrWe5fhA).
 
-![](./images/image%20(1).png) \
+<img src="./images/image%20(1).png" height="480"> \
 <sub>[It ain't much, but it's honest work](https://twitter.com/koppanyh/status/1588626824967622656?s=20&t=D0-0SKP3Vnvk1S-YUFF89Q)</sub>
 
-![](./images/image%20(2).png) \
+<img src="./images/image%20(2).png" height="480"> \
 <sub>[No idea if I filled this in correctly](https://twitter.com/koppanyh/status/1589014505350385664?s=20&t=D0-0SKP3Vnvk1S-YUFF89Q)</sub>
 
 With all the introductory exploration out of the way, I then started the design for Tertis. Because I'm doing it all on paper, and inserting newlines is generally not possible, I came up with a system in which I'd specify a staring address for each subroutine, write the subroutine, test it, then specify the end address as being a full empty 16 instruction page after the page containing the last instruction of the subroutine. This way if I had to change anything, then I had at least 16 instructions of buffer to insert things without breaking the defined addresses of any subroutines down the line. Took me a little bit to get this system down. This ended up having the happy result that if I started from the most primitive subroutines and worked up, then I could test each one individually as I wrote them, and the subroutines they depend on would've been tested already and would probably not need to change and mess up the addressing. I later added a listing with the registers used, so subroutines calling subroutines would know what was safe to use and what registers would be modified by the call. Also the size of the subroutines so I could know how many instructions would need to be entered in.
 
 My first subroutine would start on 0x010, leaving 16 instructions at the beginning for initialization and jumping to the main program loop. This was to be a subroutine that draws a single pixel at a specified x-y coordinate on registers R0 and R1, with a "color" value (on/off) at R2. I quickly ran into the limitations of the processor. Turns out there's no way to programmatically set/clear a bit. You can set/clear a literal bit, but you can't set/clear a bit who's position is specified in a register. This made things messy and I ended up setting the least significant bit and just shifting it over in a loop as many times as needed before ORing (set) or ANDing (clearing) the bit on the specified display page. This was tested, and I could indeed set/clear a single pixel by the x-y coordinates.
 
-![](./images/image%20(3).png) \
+<img src="./images/image%20(3).png" height="480"> \
 <sub>[Assembly intensifies](https://twitter.com/koppanyh/status/1588801340574425089?s=20&t=D0-0SKP3Vnvk1S-YUFF89Q)</sub>
 
 I then wrote a subroutine to read a 4 element array of x-y coordinates from memory and draw it to the screen with the specified color in R3. The tetrominoes would be represented by the coordinates of their individual blocks, so moving/rotating would just require calculating the new coordinates for each block. This subroutine was tested by drawing and clearing the L tetromino over and over to test the max framerate and see if there'd be any flashing during movement. There was... with an update rate of less than 1 Hz. Not gonna lie, I was actually kind of pissed that it was midnight and that's all I had to show for all my hard work at the end of the day (remember that it's all written and keyed by hand). There was no way I was going to be able to do Tetris at that speed (none of the other necessary subroutines had even been written yet, those would only add more processing delay).
@@ -62,7 +62,7 @@ I stubbed out the subroutine and encoded the L tetromino only. I calculated how 
 
 I ended the night by writing a demo routine that loaded the L tetromino and just moved it down. The translation subroutine didn't exist yet, so I entered all the instructions to add 1 to each y coordinate manually.
 
-![](./images/image%20(6).png) \
+<img src="./images/image%20(6).png" width="640"> \
 <sub>[Was really hoping to be farther along than this](https://twitter.com/koppanyh/status/1589171816505180160?s=20&t=D0-0SKP3Vnvk1S-YUFF89Q)</sub>
 
 I went home, stayed up until 2-ish am again, and worked on writing out the next 2 tetrominoes into the loader subroutine.
@@ -93,7 +93,7 @@ I was in the process of entering it in when someone sat down and we conversed fo
 
 I left for home early (shortly after midnight) because I had to work the next day (more like later that day). I didn't get the demo done, but whatever, the con was over and I was gone. I got home and decided to quickly type in the new demo subroutine just to see if it would've worked. It did. The first time. Dang...
 
-![](./images/image%20(7).png) \
+<img src="./images/image%20(7).png" width="640"> \
 <sub>[Why couldn't I type this in really quick at the bar to restore my honour?](https://twitter.com/koppanyh/status/1589547711065632768?s=20&t=D0-0SKP3Vnvk1S-YUFF89Q)</sub>
 
 ## Monday
@@ -104,7 +104,7 @@ After work, I took an hour to write a bot to let me know when the [Pinecil solde
 
 Then I spent a bit of time to write a delay subroutine that would also handle user input to read the buttons and shift and rotate the tetrominoes. The test program just made it fall (without collision, so it would wrap around to the start) and let the user shift and rotate it as it fell. There was another off-by-one-bit error where it read from the wrong address when checking if the "shift left" key was pressed, and that took me forever to find.
 
-![](./images/image%20(8).png) \
+<img src="./images/image%20(8).png" width="640"> \
 <sub>[Even this would've been a better demo...](https://twitter.com/koppanyh/status/1590163695111647234?s=20&t=D0-0SKP3Vnvk1S-YUFF89Q)</sub>
 
 I then tried to write the subroutine to clear the full rows from the screen. Yeah... that one didn't go so well. I started late and was so tired that I ended up with some weird spaghetti code that didn't work. It would kind of shift down the bottom 2 rows and then stop for some reason. I wasn't going to figure it out that late at night.
@@ -142,7 +142,7 @@ Eventually I got it working and finished writing and entering the tetromino spaw
 
 By this point it was very late, but I had a fully working Tertis. I took a video and posted it to Twitter and the Hackaday Discord server for proof that I had done it.
 
-![](./images/image%20(9).png) \
+<img src="./images/image%20(9).png" height="480"> \
 <sub>[The proof is in the ~~pudding~~ badge!](https://twitter.com/koppanyh/status/1590630310248873985?s=20&t=D0-0SKP3Vnvk1S-YUFF89Q)</sub>
 
 I crashed and burned by 1:30 am knowing I had done it.
@@ -175,7 +175,7 @@ I took a bit of time to take pictures of every active page of my paper assembly 
 
 I used those pictures to create a gif of flipping through the pages. Then I made a grid of all the pages so people could inspect the pages.
 
-![](./images/image%20(10).png) \
+<img src="./images/image%20(10).png" height="480"> \
 <sub>[AnImAtIoN!1!](https://twitter.com/koppanyh/status/1591152102369546240?s=20&t=D0-0SKP3Vnvk1S-YUFF89Q)</sub>
 
 ## Saturday
@@ -208,7 +208,7 @@ I did check to see that my pull request was approved, and it was. Cool! You can 
 
 I then started making the magazine cover for the fake magazine that I'd use for the type-in listing of the code (more on this in the Extra section below). I went to sleep *really* late after that.
 
-![](./images/image%20(11).png) \
+<img src="./images/image%20(11).png" height="480"> \
 <sub>Would you believe me if I told you this wasn't a real magazine cover?<sub>
 
 ## Wednesday
@@ -231,7 +231,7 @@ I also ended up using no memory aside from the pages for the screen, and the coo
 
 My little yellow paper legal pad also came out of this ordeal with battle scars. Below is a picture of all the pages that were written on. Most of them went into the production version of Tertis. They're all battered and wrinkled and have grease stains (because I ate while working a lot) and folded/ripped pages like a true engineer's notebook.
 
-<img src="./images/all_pages.jpg" height="480"> \
+<img src="./images/all_pages.jpg" width="640"> \
 <sub>I dare you to type it in using just this</sub>
 
 There is definitely room for improvement and optimizations. Most of the subroutines are not optimal because they were written in a hurry and/or late at night and you can't move things around on paper as you think of improvements, so I had to commit to whatever course I chose when I started writing each subroutine.
