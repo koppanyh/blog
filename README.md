@@ -15,16 +15,23 @@ All posts from before 2025 are ported over from [Blogspot](https://koppanyhorvat
 * 2022
   * November
     * [Tertis, A Supercon Production](./2022/11/tertis-supercon-production.md)
+    * [Project Pixie Stix: Making Rechargeable LED Spinning Pens](./2022/06/project-pixie-stix.md)
 * 2021
   * December
     * [The CountdownSort Algorithm (or the 2nd worst sorting algorithm)](./2021/12/the-countdownsort-algorithm-or-2nd.md)
 * 2020
+  * November
+    * [Yet Another Raspberry Pi NAS/Server Thingy](./2020/11/yet-another-raspberry-pi-nas.md)
   * May
     * [Using a 3D printer as a CNC plastic welding machine](./2020/05/using-3d-printer-as-cnc-plastic-welding.md)
+* 2018
+  * August
+    * [Espurna on the Lohas LED 9 Watt E27 Smart Bulb](./2018/08/espurna-on-the-lohas-led.md)
 * 2017
   * September
     * [Cheap n' Easy Optical Virtual Reality Position Tracking](./2017/09/cheap-n-easy-optical-virtual-reality.md)
   * May
+    * [DIY Mesh Network Protocol: The ComputerCraft Rednet Internet](./2017/05/diy-mesh-network-protocol.md)
     * [Optimized WireWorld Algorithm](./2017/05/optimized-wireworld-algorithm.md)
   * March
     * [Generating Every Combination of a List](./2017/03/generating-every-combination-of-list.md)
