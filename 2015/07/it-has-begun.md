@@ -11,3 +11,5 @@ This blog will mostly be about my adventures in writing software and designing h
 A lot of my programming projects will be based around Python and C++, but there may also be a few in other languages as I do know around 8 languages fluently and have tinkered around with a few others.
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2015/07/14 at 4:54 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2015/07/it-has-begun)</sub>

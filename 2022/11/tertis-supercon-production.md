@@ -251,3 +251,5 @@ https://drive.google.com/file/d/18-dJTzrF_ELPg95-Ffr47-QUv_PNf2bI/view
 If you actually type it in by hand (or even if you load it over serial), please send images/videos on Twitter and tag @koppanyh with #TetrisGuy and #Tertis (not Tetris) so I can see it. I'll even be giving out free retweets to the first infinity people who do this!
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2022/11/16 at 10:33 PM PST</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2022/11/tertis-supercon-production)</sub>

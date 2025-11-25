@@ -224,3 +224,5 @@ https://github.com/koppanyh/VR-optical-tracking \
 But I give no guarantee that my documentation is good enough for you to figure it out from my code alone.
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2017/09/11 at 10:50 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2017/09/cheap-n-easy-optical-virtual-reality)</sub>

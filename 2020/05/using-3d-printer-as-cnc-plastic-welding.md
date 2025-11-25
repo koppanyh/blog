@@ -157,3 +157,5 @@ While analyzing the thermal zones, I found some dried Meatball Marinara sauce on
 I also realized that I kind of wrote this like a detailed lab writeup essay from college, which is funny because I absolutely hated writing anything and there's no way I would have been able to write all of this in less than a day in one sitting the way I did here. It helps that the language and format are much less formal than what's expected in college, and the topic is much more interesting than the kind of stuff I had to do in college 😛.
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2020/05/10 at 11:03 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2020/05/using-3d-printer-as-cnc-plastic-welding)</sub>

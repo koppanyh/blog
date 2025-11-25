@@ -204,3 +204,5 @@ while True:
 ```
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2023/08/19 at 10:09 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2023/08/advertising-your-minecraft-server-with)</sub>

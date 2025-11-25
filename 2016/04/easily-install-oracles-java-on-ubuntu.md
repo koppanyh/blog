@@ -24,3 +24,5 @@ The next command actually installs it, with a license agreement and a download. 
 The last command just confirms that you have Java installed. \
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2016/04/08 at 10:33 AM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2016/04/easily-install-oracles-java-on-ubuntu)</sub>

@@ -19,3 +19,5 @@ I didn't attach code because those 7 lines in the picture below are all that's n
 ![](./images/tmath.png)
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2015/08/20 at 7:30 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2015/08/simple-python-command-line-calculator)</sub>

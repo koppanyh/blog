@@ -102,3 +102,5 @@ I hope this is helpful to someone. \
 It would have helped me quite a bit if I could find something like this when I had to incorporate this feature into the program I had to modify. Instead I wasted about a whole work day making this and porting it to Axon and debugging it.
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2017/03/11 at 12:17 AM PST</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2017/03/generating-every-combination-of-list)</sub>

@@ -48,3 +48,5 @@ From the top you can see how much the nodes overlap each other at the height of 
 <sub>Top View of Coverage</sub>
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2017/05/22 at 5:49 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2017/05/diy-mesh-network-protocol)</sub>

@@ -20,3 +20,5 @@ TLDR: By moving the blog over to GitHub and markdown files, I get more control o
 You can find the new blog here: https://github.com/koppanyh/blog
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2025/11/06 at 6:24 PM PST</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2025/11/goodbye-blogger-and-thanks-for-all-fish)</sub>

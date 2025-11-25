@@ -59,3 +59,5 @@ save screenshot
 The source code can be found [here](https://github.com/koppanyh/GravCalc).
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2015/07/15 at 3:42 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2015/07/gravity-visualizer)</sub>

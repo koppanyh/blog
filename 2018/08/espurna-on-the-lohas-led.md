@@ -40,3 +40,5 @@ espurna build options
 basic http api
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2018/08/14 at 5:24 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2018/08/espurna-on-the-lohas-led)</sub>

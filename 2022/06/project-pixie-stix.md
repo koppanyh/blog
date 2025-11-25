@@ -240,3 +240,5 @@ UPDATE 2022-06-26: Bought a bunch of LR41 cells to "refill" pens for Basscon in 
 asdf
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2022/06/26 at 11:05 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2022/06/project-pixie-stix)</sub>

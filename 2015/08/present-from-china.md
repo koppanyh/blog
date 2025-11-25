@@ -17,3 +17,5 @@ I'm planning on making a clock type thing that also displays temperature and hum
 These things will be documented on [Instructables.com](http://www.instructables.com/)
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2015/08/03 at 8:28 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2015/08/present-from-china)</sub>

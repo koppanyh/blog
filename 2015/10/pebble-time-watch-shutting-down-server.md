@@ -50,3 +50,5 @@ ajax( //send the shutdown request
 <sub>Screenshot of emulator with shutdown app.</sub>
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2015/10/21 at 9:25 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2015/10/pebble-time-watch-shutting-down-server)</sub>

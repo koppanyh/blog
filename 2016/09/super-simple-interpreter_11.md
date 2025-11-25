@@ -180,3 +180,5 @@ end
 The differences in each of the implementations is that the Python one is more like a command line in which you type in your lines and then type in "run" when you want to execute the program, and it supports both "write" and "print". The Axon implementation only has "print" and is a function that takes in the whole program as a string parameter, so I made that to also work with semicolons between the statements.
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2016/09/11 at 2:53 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2016/09/super-simple-interpreter_11)</sub>

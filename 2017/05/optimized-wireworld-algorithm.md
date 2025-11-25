@@ -160,3 +160,5 @@ while True:
 And as always, if you have some suggestions or ways to optimize this algorithm further, please let me know and I'll be more than happy to update this post with the new information.
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2017/05/20 at 1:08 AM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2017/05/optimized-wireworld-algorithm)</sub>

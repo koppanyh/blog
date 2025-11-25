@@ -168,3 +168,5 @@ Figured from this, talks about using 2.4GHz (5GHz in my case) and checking count
 Use this to persist country code: https://askubuntu.com/questions/503416/wifi-country-changed-to-us-how-do-i-change-it-back
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2020/11/01 at 3:33 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2020/11/yet-another-raspberry-pi-nas)</sub>

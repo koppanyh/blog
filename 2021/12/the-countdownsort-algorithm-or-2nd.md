@@ -174,3 +174,5 @@ The limitations of this algorithm is that the counter requires positive numbers,
 This post started as a joke, but ended up being an actually serious analysis of an algorithm. The original Discord chat that prompted this post and explored the time complexities and optimizations is much more entertaining. Oh well, at least we had fun 😂
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2021/12/20 at 11:03 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2021/12/the-countdownsort-algorithm-or-2nd)</sub>

@@ -68,3 +68,5 @@ This second picture is a picture of all of my processed text files. Since there 
 ![](./images/Screenshot%20from%202015-07-17%2018_52_53.png)
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2015/07/17 at 7:01 PM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2015/07/reading-wikipedia-dump)</sub>

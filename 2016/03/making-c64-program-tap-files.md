@@ -78,3 +78,5 @@ GitHub program files:
 https://github.com/koppanyh/C64Net/blob/master/tapwriter.py
 
 <sub>Posted by [koppanyh](https://github.com/koppanyh) on 2016/03/20 at 12:34 AM PDT</sub>
+
+<sub>[Permalink](https://blog.kh-labs.org/2016/03/making-c64-program-tap-files)</sub>
