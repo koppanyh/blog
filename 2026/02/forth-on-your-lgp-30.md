@@ -141,6 +141,20 @@ I do have some changes that I'd like to make, if I consider continuing the LGP F
 
 Who knows, maybe some day Forth will actually become a viable option for a language to run on the LGP-30. One can dream.
 
-<sub>Posted by [koppanyh](https://github.com/koppanyh) on 2026/02/04 at 10:47 PM PST</sub>
+## Update: 2026-02-16
+
+This is an update from the day after VCF. The exhibit was a great success!
+
+Larry was nice enough to let me comandeer this little corner of his exhibit and talk to the people about forth. He even said that my corner was probably the most popular part of his exhibit. Funnily enough, people would get drawn to his tables because of the clicking of the little relay computer, but they'd seem to stay for the LGP-30.
+
+What's crazier is that Sean from [Advent of Computing](https://adventofcomputing.com/) said that he'd like to interview me for his podcast (since he's previously done an episode about the LGP-30 and is even the one who made the [online LGP0-30 emulator](https://lgp30.org/)) seeing that I'm now one of the few hardcore LGP-30 programmers on the planet. To make it even better, he showed it to David from [Usagi Electric](https://www.youtube.com/@UsagiElectric) because he's got an actual LGP-21 (the transistorized version of the 30) and would like to be able to run some fun things on it (and I happen to have the monopoly on fun things written this century for these computers).
+
+If these things come to pass, I'll update this post with links. I wouldn't hold my breath (since I work slow), but it would be nice since I like street cred 😉
+
+<img src="./images/PXL_20260214_222445216.jpg" width="640"> \
+<sub>Can I interest you in some kopForth? I even dressed up as an early '80s software professional to sell it.</sub>
+
+<sub>Posted by [koppanyh](https://github.com/koppanyh) on 2026/02/04 at 10:47 PM PST</sub>\
+<sub>Updated on 2026/02/16 at 7:09 PM PST</sub>
 
 <sub>[Permalink](https://blog.kh-labs.org/2026/02/forth-on-your-lgp-30)</sub>

@@ -6,6 +6,9 @@ All posts from before 2025 are ported over from [Blogspot](https://koppanyhorvat
 
 ## Directory
 
+* 2026
+  * February
+    * [Forth on your LGP-30? More likely than you think.](./2026/02/forth-on-your-lgp-30.md)
 * 2025
   * November
     * [Goodbye, Blogger, and thanks for all the fish!](./2025/11/goodbye-blogger-and-thanks-for-all-fish.md)
